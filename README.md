@@ -59,13 +59,14 @@ lib/
 
 ## 4. App Video
 
+
 [Watch App Demo Video](https://drive.google.com/file/d/1LzqBEq-YRdYI92drFgQB2L5NYr5QmVGg/view?usp=sharing)
 
 ---
 
 ## 5. App APK
 
-[Download APK](https://github.com/YOUR_USERNAME/evencir_pulse_app/releases/download/v1.0/app-release.apk)
+[Download APK](https://github.com/muqaddas-moeen/Evencir-pulse-app/releases/tag/v1.0)
 
 ---
 
