@@ -4,7 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:evencir_pulse_app/core/utils/app_colors.dart';
 import 'package:evencir_pulse_app/core/utils/image_strings.dart';
 import 'package:evencir_pulse_app/models/workout_model.dart';
-import 'package:evencir_pulse_app/theme/app_theme.dart';
+import 'package:evencir_pulse_app/core/utils/theme/app_theme.dart';
 import 'package:evencir_pulse_app/features/plan/components/workout_type_dropdown.dart';
 import 'package:evencir_pulse_app/features/plan/components/duration_range_fields.dart';
 import 'package:evencir_pulse_app/features/plan/views/ediable_text_field.dart';

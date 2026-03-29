@@ -96,8 +96,6 @@ class TrainingController extends GetxController {
 
   void _mergeWorkouts(Map<String, Workout> workoutMap) {
     if (hasUnsavedChanges.value || isLoading.value) {
-      print(
-          "🕵️ Skipping Firestore merge because of local unsaved changes or saving in progress");
       return;
     }
     for (int i = 0; i < weeks.length; i++) {

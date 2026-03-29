@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:evencir_pulse_app/features/auth/controllers/storage_controller.dart';
-import 'package:evencir_pulse_app/routes/app_pages.dart';
+import 'package:evencir_pulse_app/core/utils/routes/app_pages.dart';
 import 'package:evencir_pulse_app/services/firebase/auth_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';

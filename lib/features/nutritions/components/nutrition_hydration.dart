@@ -57,15 +57,14 @@ class NutritionHydration extends StatelessWidget {
                     ],
                   ),
                 ),
-                // Vertical Scale and 0ml alignment
+                SizedBox(width: 10.w),
                 Expanded(
                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // 2 L Row
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          const Spacer(),
                           Text('2 L',
                               style: AppStyle.mulishTextStyle(
                                   fontSize: 12,
@@ -80,53 +79,15 @@ class NutritionHydration extends StatelessWidget {
                               borderRadius: BorderRadius.circular(2.r),
                             ),
                           ),
-                          SizedBox(width: 60.w), // Space for 0ml offset
-                        ],
-                      ),
-                      SizedBox(height: 4.h),
-                      // Upper intermediate dots
-                      ...List.generate(
-                        3,
-                        (index) => Row(
-                          children: [
-                            const Spacer(),
-                            SizedBox(width: 25.w), // Label offset
-                            Container(
-                              width: 8.w,
-                              height: 2.h,
-                              margin: EdgeInsets.symmetric(vertical: 4.h),
-                              decoration: BoxDecoration(
-                                color: AppColors.kGreyColor.withOpacity(0.3),
-                                borderRadius: BorderRadius.circular(1.r),
-                              ),
-                            ),
-                            SizedBox(width: 66.w),
-                          ],
-                        ),
-                      ),
-                      // Middle Blue Dash
-                      Row(
-                        children: [
-                          const Spacer(),
-                          SizedBox(width: 25.w),
-                          Container(
-                            width: 14.w,
-                            height: 4.h,
-                            decoration: BoxDecoration(
-                              color: AppColors.kBlue2Color,
-                              borderRadius: BorderRadius.circular(2.r),
-                            ),
-                          ),
                           SizedBox(width: 60.w),
                         ],
                       ),
                       SizedBox(height: 4.h),
-                      // Lower intermediate dots
                       ...List.generate(
                         3,
                         (index) => Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            const Spacer(),
                             SizedBox(width: 25.w),
                             Container(
                               width: 8.w,
@@ -141,10 +102,44 @@ class NutritionHydration extends StatelessWidget {
                           ],
                         ),
                       ),
-                      // 0 L Row with horizontal line and 0ml
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          const Spacer(),
+                          SizedBox(width: 25.w),
+                          Container(
+                            width: 14.w,
+                            height: 4.h,
+                            decoration: BoxDecoration(
+                              color: AppColors.kBlue2Color,
+                              borderRadius: BorderRadius.circular(2.r),
+                            ),
+                          ),
+                          SizedBox(width: 60.w),
+                        ],
+                      ),
+                      SizedBox(height: 4.h),
+                      ...List.generate(
+                        3,
+                        (index) => Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            SizedBox(width: 25.w),
+                            Container(
+                              width: 8.w,
+                              height: 2.h,
+                              margin: EdgeInsets.symmetric(vertical: 4.h),
+                              decoration: BoxDecoration(
+                                color: AppColors.kGreyColor.withOpacity(0.3),
+                                borderRadius: BorderRadius.circular(1.r),
+                              ),
+                            ),
+                            SizedBox(width: 66.w),
+                          ],
+                        ),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
                           Text('0 L',
                               style: AppStyle.mulishTextStyle(
                                   fontSize: 12,
@@ -160,14 +155,14 @@ class NutritionHydration extends StatelessWidget {
                             ),
                           ),
                           Container(
-                            width: 45.w,
+                            width: 50.w,
                             height: 1.h,
                             color: AppColors.kGreyColor.withOpacity(0.3),
                           ),
                           Text('0ml',
                               style: AppStyle.mulishTextStyle(
-                                  fontSize: 32,
-                                  fontWeight: FontWeight.w400,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w600,
                                   c: AppColors.kOffWhiteColor)),
                         ],
                       ),
@@ -182,7 +177,7 @@ class NutritionHydration extends StatelessWidget {
           width: double.infinity,
           padding: EdgeInsets.symmetric(vertical: 12.h),
           decoration: BoxDecoration(
-            color: const Color(0xFF1A3A3A), // Dark teal/green banner
+            color: const Color(0xFF1A3A3A),
             borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(8.r),
                 bottomRight: Radius.circular(8.r)),

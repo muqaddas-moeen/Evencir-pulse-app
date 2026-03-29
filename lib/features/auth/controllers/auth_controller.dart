@@ -5,7 +5,7 @@ import 'package:evencir_pulse_app/services/firebase/auth_service.dart';
 import 'package:evencir_pulse_app/services/firestore/user_service.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import '../../../routes/app_pages.dart';
+import '../../../core/utils/routes/app_pages.dart';
 
 class AuthController extends GetxController {
   final FirebaseAuthService _authService = Get.find<FirebaseAuthService>();

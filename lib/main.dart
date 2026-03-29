@@ -9,8 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'routes/app_pages.dart';
-import 'theme/app_theme.dart';
+import 'core/utils/routes/app_pages.dart';
+import 'core/utils/theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

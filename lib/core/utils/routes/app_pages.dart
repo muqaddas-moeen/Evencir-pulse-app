@@ -1,11 +1,11 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:get/get.dart';
-import '../features/auth/bindings/auth_binding.dart';
-import '../features/auth/views/login_view.dart';
-import '../features/auth/views/register_view.dart';
-import '../features/bottom_nav_bar/views/bottom_nav_bar_view.dart';
-import '../features/bottom_nav_bar/bindings/bottom_nav_bar_binding.dart';
+import '../../../features/auth/bindings/auth_binding.dart';
+import '../../../features/auth/views/login_view.dart';
+import '../../../features/auth/views/register_view.dart';
+import '../../../features/bottom_nav_bar/views/bottom_nav_bar_view.dart';
+import '../../../features/bottom_nav_bar/bindings/bottom_nav_bar_binding.dart';
 
 part 'app_routes.dart';
 

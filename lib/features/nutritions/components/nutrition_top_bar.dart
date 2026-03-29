@@ -6,7 +6,7 @@ import 'package:table_calendar/table_calendar.dart';
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_style.dart';
 import '../../../../core/utils/image_strings.dart';
-import '../../../../theme/app_theme.dart';
+import '../../../core/utils/theme/app_theme.dart';
 import '../controllers/nutritions_controller.dart';
 
 class NutritionTopBar extends StatelessWidget {

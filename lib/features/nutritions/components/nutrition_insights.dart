@@ -71,8 +71,8 @@ class NutritionInsights extends StatelessWidget {
                   fontSize: 14,
                   fontWeight: FontWeight.w500,
                   c: AppColors.kOffWhiteColor.withOpacity(0.5)))),
-          SizedBox(height: 20.h),
-          const Spacer(),
+          SizedBox(height: 25.h),
+       
           Obx(() {
             final percent = (controller.caloriesConsumed.value /
                     controller.caloriesGoal.value)
@@ -160,7 +160,7 @@ class NutritionInsights extends StatelessWidget {
                       fontWeight: FontWeight.w600)),
             ],
           ),
-          const Spacer(),
+        SizedBox(height: 30.h),
           Text('Weight',
               style: AppStyle.mulishTextStyle(
                   fontSize: 18,
