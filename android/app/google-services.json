@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "402521897257",
+    "project_id": "evencir-pulse",
+    "storage_bucket": "evencir-pulse.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402521897257:android:0b116e7f5165c345e09f38",
+        "android_client_info": {
+          "package_name": "com.example.evencir_pulse_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmbLAho11WYvO7ci5NLc1pvjxSz22WDaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
