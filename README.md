@@ -1,3 +1,16 @@
+# Evencir Pulse
+
+<p align="center">
+  <img width="220"  alt="register_screen" src="https://github.com/user-attachments/assets/c20c3f62-f012-4446-99eb-a9959534bc36" />
+  <img width="220"  alt="login_screen" src="https://github.com/user-attachments/assets/c111fb34-6a1a-44dc-9989-00ac52e53c58" />
+  <img width="220"  alt="nutrition_screen" src="https://github.com/user-attachments/assets/42249a8c-2ba9-4ee9-b5d0-0e8f22a975f8" />
+  <img width="220"  alt="plan_screen" src="https://github.com/user-attachments/assets/8967766b-38b6-4e2a-b04d-5a31931f549a" />
+  <img width="220"  alt="mood_screen" src="https://github.com/user-attachments/assets/7fdc4dc3-202b-4e39-bc46-13127ff1311d" />
+  <img width="220" alt="profile_screen" src="https://github.com/user-attachments/assets/aa684f5a-1128-406f-a138-424256063fd3" />
+</p>
+
+
+
 
 Evencir Pulse is a modern Flutter application designed to track fitness goals, training plans, and emotional well-being. Built with a robust MVVM architecture and high-performance state management.
 
